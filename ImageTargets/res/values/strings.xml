@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Movieplex-AR</string>
+    <string name="app_description">Movieplex to scan Movie Banners</string>
+</resources>

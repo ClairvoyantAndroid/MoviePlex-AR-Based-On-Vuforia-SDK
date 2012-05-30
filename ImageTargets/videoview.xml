@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="wrap_content"
+  android:layout_height="wrap_content"
+  android:layout_margin="30dip"
+  android:layout_gravity="center"
+  android:gravity="center">
+  
+         <ImageView  android:id="@+id/image"
+         android:layout_width="100dip"
+         android:background="@drawable/icon"
+         android:layout_height="100dip"/>
+  
+         <VideoView android:id="@+id/videoview"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerInParent="true"
+         android:layout_toRightOf="@+id/image"/>
+    
+</RelativeLayout>
